@@ -18,14 +18,15 @@ function MainSlideshow({ data, loading }) {
     <>
       <div className='container'>
         <div className='buttons'>
-          <Link to={"/FullscreenSlideshow"}>
+          <Link to={"/FullscreenSlideshow"} className='btn-link'>
             <button className='preview-btn' onClick={handle.enter}>
-              Preview{" "}
+              Preview <ion-icon name='play-outline'></ion-icon>
             </button>
           </Link>
-          <Link to={"/AddSlide"}>
+          <Link to={"/AddSlide"} className='btn-link'>
             <button className='add-btn' onClick={handle.enter}>
               Add Slide
+              <ion-icon name='add-outline'></ion-icon>{" "}
             </button>
           </Link>
         </div>
@@ -41,9 +42,9 @@ function MainSlideshow({ data, loading }) {
               slidesPerView={"3"}
               coverflowEffect={{
                 rotate: 0,
-                stretch: 10,
+                stretch: 0,
                 depth: 100,
-                modifier: 2.3,
+                modifier: 2.5,
               }}
               pagination={{ el: ".swiper-pagination", clickable: true }}
               navigation={{

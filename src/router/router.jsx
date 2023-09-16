@@ -45,7 +45,7 @@ function Routers() {
               input={collection}
               ratio={`3:2`}
               mode={`automatic`}
-              timeout={`2000`}
+              timeout={`4000`}
             />
           }
         />
