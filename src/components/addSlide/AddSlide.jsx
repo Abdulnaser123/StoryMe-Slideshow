@@ -25,7 +25,7 @@ const AddSlide = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/api/add-slide", {
+      const response = await fetch("http://localhost:3000/books", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
