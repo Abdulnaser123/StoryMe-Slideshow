@@ -1,0 +1,27 @@
+/** @format */
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found-content {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.not-found-title {
+  font-size: 200px;
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.not-found-text {
+  font-size: 43px;
+  color: #333;
+}
