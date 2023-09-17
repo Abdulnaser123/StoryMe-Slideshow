@@ -39,7 +39,7 @@ Currently, two official plugins are available:
 
 ### Clone
 
-- Clone this repo to your local machine using `[https://github.com/Abdulnaser123/Book-Store](https://github.com/Abdulnaser123/StoryMe-Slideshow)`
+- Clone this repo to your local machine using `git clone https://github.com/Abdulnaser123/StoryMe-Slideshow`
 
 
 ### Setup
